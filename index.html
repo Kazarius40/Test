@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-$END$
+
+<div class="home-page">
+    <div class="wrapper">
+        <h2>Test</h2>
+        <p>Name/Value Pair</p>
+        <div class="input-addButton">
+            <input type="text" id="nameValueInput" placeholder="Name = Value">
+            <button id="addButton">Add</button>
+        </div>
+        <p>Name/Value Pair List</p>
+        <div class="pairList-buttons">
+            <div class="list" id="pairList">
+                <!--                Тут додаются поля введених нами значень                       -->
+            </div>
+            <div class="buttons">
+                <button id="sortByName">Sort by Name</button>
+                <button id="sortByValue">Sort by Value</button>
+                <button id="delete">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="main.js"></script>
 </body>
 </html>
