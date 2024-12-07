@@ -1,0 +1,31 @@
+@media (min-width: 480px) and (max-width: 768px) {
+    .home-page {
+        background-color: bisque;
+    }
+
+    .wrapper {
+        min-width: 95vw;
+    }
+
+    .wrapper h2 {
+        font-size: 1.3rem;
+    }
+
+    .wrapper p,
+    .wrapper label,
+    button,
+    .wrapper .pairList-buttons .list,
+    input::placeholder {
+        font-size: 0.8rem;
+    }
+
+    .wrapper .input-addButton input {
+        width: 70%;
+        margin-right: 5%;
+    }
+
+    .wrapper .pairList-buttons .list {
+        width: 69%;
+        margin-right: 6%;
+    }
+}

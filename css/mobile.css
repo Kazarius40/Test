@@ -1,0 +1,51 @@
+@media (max-width: 480px) {
+    .wrapper {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+
+    .wrapper h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .wrapper p,
+    .wrapper label,
+    button,
+    .wrapper .pairList-buttons .list,
+    input::placeholder {
+        font-size: 0.7rem;
+    }
+
+    .wrapper .input-addButton {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input-addButton button {
+        align-self: flex-start;
+    }
+
+    .wrapper .input-addButton input {
+        width: 100%;
+    }
+
+    .wrapper .pairList-buttons {
+        flex-direction: column;
+    }
+
+    .wrapper .pairList-buttons .list {
+        min-height: 60vh;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .wrapper .pairList-buttons .buttons {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .wrapper .pairList-buttons button:nth-child(3) {
+        margin-top: 0;
+    }
+}
